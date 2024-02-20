@@ -23,7 +23,7 @@ const prezzoScontato = ((prezzoPerKm / 100) * sconto).toFixed(2);
 const prezzoTot = (prezzoPerKm - prezzoScontato).toFixed(2);
 console.log(prezzoScontato, prezzoTot);
 
-document.getElementById('output').innerHTML += prezzoTot;
+document.getElementById('output').innerHTML += prezzoTot + '€' ;
 
 
 
