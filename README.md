@@ -10,9 +10,12 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 ## SVOLGIMENTO
 
 1. Promt numero di chilometri dell'utente;
-2. Promt etá del passeggiero;
-3. creo una variabile per il prezzo fisso;
-4. creo una variabile per ciascun sconto;
-5. creo un'istruzione condizionale per lo sconto per i minorenni del 20%;
-6. creo un'istruzione condizionale per lo sconto per gli over 65 del 40%;
-7.  Cacolo il totale del prezzo con due valori decimali.
+2. Promt etá del passeggero;
+3. creo una variabile per il prezzo fisso iniziale;
+4. Calcolo il prezzo al chilometro;
+5. Creo una variabile per lo sconto per il minorenne;
+6. Creo una variabile per lo sconto per gli over 65;
+7. Creo un'istruzione condizionale per applicare uno sconto in base all'etá del soggetto intessato;
+8. Creo una variabile che mi calcola il prezzo scontato;
+9. Sottraggo il prezzo per km con il prezzo scontato per ottenere il prezzo totale;
+10. Stampo il risultato in forma umana in html.
