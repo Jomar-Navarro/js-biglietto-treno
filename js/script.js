@@ -1,6 +1,6 @@
 console.log("Calcolo del prezzo del biglietto del treno");
 
-const km = prompt('Quanti chilometri vuoi fare?');
+const km = parseInt(prompt('Quanti chilometri vuoi fare?'));
 const age = parseInt(prompt('Inserisci la tua etá'));
 console.log(km, age);
 
